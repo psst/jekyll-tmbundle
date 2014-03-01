@@ -8,7 +8,7 @@ A template is included for a blank blog post; create a new file from the
 `Jekyll` template. Build your site with **&#8984;+B**
 
 
-## Installation
+## Installation (TextMate 2)
 
     % git clone git://github.com/psst/jekyll-tmbundle.git ~/Library/Application\ Support/Avian/Bundles/Jekyll.tmbundle
 

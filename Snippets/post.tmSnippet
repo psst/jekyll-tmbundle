@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>---
+layout: post
+date: `date +%Y-%m-%d`
+title: ${1:Title}
+---
+</string>
+	<key>name</key>
+	<string>post</string>
+	<key>scope</key>
+	<string>text.html.markdown.jekyll</string>
+	<key>tabTrigger</key>
+	<string>post</string>
+	<key>uuid</key>
+	<string>7E2D6A0D-6E9C-4468-AD90-3D906291007A</string>
+</dict>
+</plist>

@@ -5,19 +5,30 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>cd $TM_PROJECT_DIRECTORY &amp;&amp; jekyll
+	<string>#!/usr/bin/env bash
+[[ -f "$HOME/.bash_profile" ]] &amp;&amp; . "$HOME/.bash_profile"
+
+cd $TM_PROJECT_DIRECTORY &amp;&amp; jekyll build
 </string>
 	<key>input</key>
 	<string>none</string>
+	<key>inputFormat</key>
+	<string>text</string>
 	<key>keyEquivalent</key>
 	<string>@b</string>
 	<key>name</key>
 	<string>Build site</string>
-	<key>output</key>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
 	<string>discard</string>
 	<key>scope</key>
 	<string>text.html.markdown.jekyll</string>
 	<key>uuid</key>
 	<string>B6A7C3A7-CA27-4842-A882-4F16C30D1EAE</string>
+	<key>version</key>
+	<integer>2</integer>
 </dict>
 </plist>
